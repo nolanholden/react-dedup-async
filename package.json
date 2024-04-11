@@ -1,0 +1,58 @@
+{
+  "name": "react-dedup-async",
+  "license": "MIT",
+  "author": "Nolan Holden",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nolanholden/react-dedup-async"
+  },
+  "keywords": [
+    "react-dedup-async",
+    "react-async-hook",
+    "dedup",
+    "async",
+    "callback",
+    "fetch",
+    "axios",
+    "promise",
+    "react",
+    "react-native",
+    "reactjs",
+    "reactnative",
+    "hooks",
+    "hook",
+    "useAsync",
+    "useState",
+    "useFetch",
+    "usePromise",
+    "use-async",
+    "use-state",
+    "use-fetch",
+    "use-promise"
+  ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "npm run build && changeset publish",
+    "lint": "tsc --noEmit && eslint ."
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/react": "^18.2.76",
+    "eslint": "^8.57.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.6.0"
+  }
+}
