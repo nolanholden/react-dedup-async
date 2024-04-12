@@ -1,5 +1,7 @@
 # react-dedup-async
 
+https://www.npmjs.com/package/react-dedup-async
+
 React hook to dedup calls to an async callback.
 
 Calls which are overriden resolve to the next 'winning' call's result.
